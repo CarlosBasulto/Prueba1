@@ -1,0 +1,23 @@
+
+{{obtenerMensaje()}}
+{{numero1 + numero2}}
+
+
+{{numero1 + numero2}}
+
+
+<p>{{ esVisible ? 'El elemento es visible' : 'El elemento no es visible' }}</p>
+
+<p>Primer nombre: {{ nombres[0] }}</p>
+<p>Todos los nombres: {{ nombres.join(', ') }}</p>
+
+
+
+<p>Nombre del usuario: {{ usuario.nombre }}</p>
+<p>Edad del usuario: {{ usuario.edad }}</p>
+
+<p>Fecha actual: {{ fechaActual | date:'longDate' }}</p>
+<p>Hora actual: {{ fechaActual | date:'shortTime' }}</p>
+
+
+<router-outlet></router-outlet>
