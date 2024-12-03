@@ -1,8 +1,6 @@
 <html>
 
-<head class="clase1" id="heades1">
-
-
+<head class="clase1 clase2" id="heades1 clase2ID">
 
  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
